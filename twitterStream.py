@@ -47,7 +47,7 @@ for r in res:
 
         print(r)
         
-        res = es.index(index="test-index-2", doc_type='tweet', body=tweet)
+        res = es.index(index="test-index", doc_type='tweet', body=tweet)
         
         print("----------------------------------------------------")
       
